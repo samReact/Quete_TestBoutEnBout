@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemPrice when passed no value renders text "Contact us" 1`] = `
+<styled.div>
+  Contact us
+</styled.div>
+`;
+
+exports[`ItemPrice when passed value renders price value 1`] = `
+<styled.div>
+  €100
+</styled.div>
+`;
+
+exports[`ItemPrice when passed value when passed render prop renders price value with render prop 1`] = `
+<Styled(styled.div)>
+  €100
+</Styled(styled.div)>
+`;

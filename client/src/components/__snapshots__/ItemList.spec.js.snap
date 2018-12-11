@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemList when passed items renders list 1`] = `
+<styled.ul>
+  <styled.li
+    data-selector="item-list-element"
+    key="1234"
+  >
+    <Styled(Link)
+      to="/items/1234"
+    >
+      <ItemImage
+        imageUrl="http://no.big/deal"
+      />
+      <styled.div>
+        GLOUGLOU
+      </styled.div>
+      <ItemPrice
+        render={[Function]}
+        value={100}
+      />
+    </Styled(Link)>
+  </styled.li>
+  <styled.li
+    data-selector="item-list-element"
+    key="5678"
+  >
+    <Styled(Link)
+      to="/items/5678"
+    >
+      <ItemImage
+        imageUrl="http://okfine.com/lol"
+      />
+      <styled.div>
+        MDR
+      </styled.div>
+      <ItemPrice
+        render={[Function]}
+        value={null}
+      />
+    </Styled(Link)>
+  </styled.li>
+</styled.ul>
+`;
+
+exports[`ItemList when passed no items renders empty list 1`] = `<styled.ul />`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemDetails when passed item props renders correctly 1`] = `
+<styled.div>
+  <ItemImage
+    imageUrl=""
+  />
+  <div>
+    <Styled(styled.div)>
+      GLOUGLOU
+    </Styled(styled.div)>
+    <ItemPrice
+      render={[Function]}
+      value={100}
+    />
+  </div>
+</styled.div>
+`;
